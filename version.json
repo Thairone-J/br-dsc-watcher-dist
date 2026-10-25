@@ -1,6 +1,6 @@
 {
-  "version": "0.5.2",
-  "tag": "v0.5.2-ui",
-  "releasedAt": "2026-10-25T05:43:00-03:00",
-  "notes": "v0.5.2-ui: Simplificada com coluna unica Device (SDWAN / ISP · Designacao sem IP), correcao dos itens de Compliance, remocao do verificar versao no rodape, alinhamento uniforme de horario no grafico e nomes sobrios dos sons (Pulse, Sonar, Beep, Chime)."
+    "notes":  "v0.5.3-ui: Atualizacao OTA 1-Clique ativa + Coluna Device + Compliance + Alinhamento Grafico",
+    "version":  "0.5.3",
+    "tag":  "v0.5.3-ui",
+    "releasedAt":  "2026-10-25T05:54:00-03:00"
 }
