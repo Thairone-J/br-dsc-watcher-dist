@@ -1,6 +1,6 @@
 {
-  "version": "0.5.4",
-  "tag": "v0.5.4-ui",
-  "releasedAt": "2026-10-25T06:03:00-03:00",
-  "notes": "v0.5.4-ui: Removida coluna Site ID da Visao Simplificada (iniciando direto por Local / Cliente)"
+  "version": "1.0.0",
+  "tag": "v1.0.0",
+  "releasedAt": "2026-10-25T19:40:00-03:00",
+  "notes": "v1.0.0 Stable Release: Mural como visao padrao, grafico multi-escala (2h/24h/7d/30d) com fuso automatico, parser de Designacao (3 palavras), idioma 100% PT/EN/ES, cadeado VPN, tipo de sensor (PING/SNMP) e Auditoria de Cadastro PRTG."
 }
