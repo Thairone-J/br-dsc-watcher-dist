@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "tag": "v1.1.0",
-  "releasedAt": "2026-10-25T22:40:00-03:00",
-  "notes": "v1.1.0: Refinamento visual Dark Pandora (abas em pilula, cartoes elevados) + nova secao Mapa Brasil interativo (27 UFs, callouts laterais, pinos automaticos por cidade/filial, barra proporcional de SLA e insights por Regiao)."
+  "version": "1.1.1",
+  "tag": "v1.1.1",
+  "releasedAt": "2026-10-26T00:10:00-03:00",
+  "notes": "v1.1.1 Hotfix: Correcao da referencia Watcher.domain (D) em ui.js para renderizacao imediata do Mapa Brasil e status VPN/PRTG."
 }
