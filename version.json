@@ -1,6 +1,6 @@
 {
-  "version": "1.1.8",
-  "tag": "v1.1.8",
-  "releasedAt": "2026-10-26T02:30:00-03:00",
-  "notes": "v1.1.8: Correção definitiva da série histórica PRTG (dual-fetch historicdata e values), fix de abertura do modal de canais, scanner de diagnóstico PRTG API Probe e governança ISM (Infrastructure)."
+  "version": "1.1.9",
+  "tag": "v1.1.9",
+  "releasedAt": "2026-10-26T03:00:00-03:00",
+  "notes": "v1.1.9: Correção de assinatura flexível em buildApiUrl e estabilização do scanner de diagnóstico PRTG API Probe."
 }
