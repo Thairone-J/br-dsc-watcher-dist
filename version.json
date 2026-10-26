@@ -1,6 +1,6 @@
 {
-  "version": "1.1.4",
-  "tag": "v1.1.4",
-  "releasedAt": "2026-10-26T01:00:00-03:00",
-  "notes": "v1.1.4: Sincronização de versão OTA v1.1.4 e remoção do card redundante de filiais na aba do Mapa Brasil."
+  "version": "1.1.5",
+  "tag": "v1.1.5",
+  "releasedAt": "2026-10-26T01:15:00-03:00",
+  "notes": "v1.1.5: Barras lado a lado de alertas e estados com filiais fora, painel colapsavel, modal regional agrupado por estado, versao no rodape e modal de licenca corporativa."
 }
