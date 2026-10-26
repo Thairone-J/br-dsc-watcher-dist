@@ -1,6 +1,6 @@
 {
-  "version": "1.1.5",
-  "tag": "v1.1.5",
-  "releasedAt": "2026-10-26T01:15:00-03:00",
-  "notes": "v1.1.5: Barras lado a lado de alertas e estados com filiais fora, painel colapsavel, modal regional agrupado por estado, versao no rodape e modal de licenca corporativa."
+  "version": "1.1.6",
+  "tag": "v1.1.6",
+  "releasedAt": "2026-10-26T01:32:00-03:00",
+  "notes": "v1.1.6: Atualização da licença institucional corporativa e créditos técnicos de engenharia e suporte ISM."
 }
