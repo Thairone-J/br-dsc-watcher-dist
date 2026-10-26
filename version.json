@@ -1,6 +1,6 @@
 {
-  "version": "1.1.7",
-  "tag": "v1.1.7",
-  "releasedAt": "2026-10-26T02:00:00-03:00",
-  "notes": "v1.1.7: Correção da série temporal dos gráficos (perda vs latência), modal de configuração e canais PRTG, busca expansível por cliente no mapa e governança ISM."
+  "version": "1.1.8",
+  "tag": "v1.1.8",
+  "releasedAt": "2026-10-26T02:30:00-03:00",
+  "notes": "v1.1.8: Correção definitiva da série histórica PRTG (dual-fetch historicdata e values), fix de abertura do modal de canais, scanner de diagnóstico PRTG API Probe e governança ISM (Infrastructure)."
 }
