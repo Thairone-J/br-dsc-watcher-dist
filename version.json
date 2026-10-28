@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
-  "tag": "v1.2.0",
-  "releasedAt": "2026-10-26T03:30:00-03:00",
-  "notes": "v1.2.0: Conexao definitiva com schema PRTG live (resp.histdata), parser robusto de datas com AM/PM e intervalos, mapeamento de condicoes e limites padrao em canais."
+  "version": "1.2.1",
+  "tag": "v1.2.1",
+  "releasedAt": "2026-10-28T00:00:00-03:00",
+  "notes": "v1.2.1: Tool de atalho desktop sem CORS, Splash Launcher resiliente, pinos SVG com escala dinamica no mapa, console operacional categorizado (Down SD-WAN/ISP, Loss, App), modo Privilegiado secreto, limites de canais reais (3%/6%), som Danger de alto impacto e Tour guiado interativo."
 }
