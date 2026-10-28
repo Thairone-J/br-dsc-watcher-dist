@@ -1,6 +1,6 @@
 {
-  "version": "1.2.7",
-  "tag": "v1.2.7",
+  "version": "1.2.8",
+  "tag": "v1.2.8",
   "date": "2026-10-28",
-  "notes": "v1.2.7: Persistencia robusta da saida do modo ADM com indicador de status dev-flavor no footer das configuracoes, e modal de conformidade de seguranca da informacao antes de exibir o API Token."
+  "notes": "v1.2.8: Fix do comentario HTML exposto no rodape, dev-flavor ultra discreto com 3 bolinhas quando inativo e etiqueta ADM quando ativo, checagem OTA mais agil com bypass de CDN e toast de notificacao."
 }
