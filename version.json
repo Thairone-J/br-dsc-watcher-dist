@@ -1,6 +1,6 @@
 {
-  "version": "1.2.6",
-  "tag": "v1.2.6",
+  "version": "1.2.7",
+  "tag": "v1.2.7",
   "date": "2026-10-28",
-  "notes": "v1.2.6: Splash screen com logo DHL amarelo e letras vermelhas, sneak-peak Aero Cobalt (Em breve), balao de ajuda OTA com explicacao operacional transparente."
+  "notes": "v1.2.7: Persistencia robusta da saida do modo ADM com indicador de status dev-flavor no footer das configuracoes, e modal de conformidade de seguranca da informacao antes de exibir o API Token."
 }
