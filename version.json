@@ -1,6 +1,6 @@
 {
-  "version": "1.2.2",
-  "tag": "v1.2.2",
-  "releasedAt": "2026-10-28T01:17:00-03:00",
-  "notes": "v1.2.2: Ajustes refinados de UI - mapa vetorial otimizado sem sobreposicao, versao sobria no header (v1.2.2 • ISM), console categorizado sem emojis com badges SD-WAN/ISP e botao discreto para copiar erros, som de alerta Danger funcional e Tour guiado interativo."
+  "version": "1.2.3",
+  "tag": "v1.2.3",
+  "releasedAt": "2026-10-28T01:30:00-03:00",
+  "notes": "v1.2.3: Correcao critica de renderizacao do mapa vetorial (zoomScale) e protecao do metodo de log do sistema."
 }
