@@ -1,6 +1,6 @@
 {
-  "version": "1.2.4",
-  "tag": "v1.2.4",
-  "releasedAt": "2026-10-28T02:15:00-03:00",
-  "notes": "v1.2.4: Hero bar do mapa com split tripartido (Saudavel/Alerta ISP/Critico SD-WAN), saida interativa do modo ADM no statusbar, canal direto de Reportar Bug, correcao do foco do Tour no console, layout amplo de som e alarmes LAN alinhados ao estilo WAN Simplificada com header fixo."
+  "version": "1.2.5",
+  "tag": "v1.2.5",
+  "releasedAt": "2026-10-28T02:45:00-03:00",
+  "notes": "v1.2.5: Splash launcher integrado no DOM com fast OTA check, licenca limpa e humilde com supervisao ISM, saida do modo ADM corrigida, filtro rapido Switches/APs na LAN, info-bubble OTA transparente e design system Pandora com sneak-peak do proximo tema."
 }
