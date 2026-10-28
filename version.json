@@ -1,6 +1,6 @@
 {
-  "version": "1.2.5",
-  "tag": "v1.2.5",
-  "releasedAt": "2026-10-28T02:45:00-03:00",
-  "notes": "v1.2.5: Splash launcher integrado no DOM com fast OTA check, licenca limpa e humilde com supervisao ISM, saida do modo ADM corrigida, filtro rapido Switches/APs na LAN, info-bubble OTA transparente e design system Pandora com sneak-peak do proximo tema."
+  "version": "1.2.6",
+  "tag": "v1.2.6",
+  "date": "2026-10-28",
+  "notes": "v1.2.6: Splash screen com logo DHL amarelo e letras vermelhas, sneak-peak Aero Cobalt (Em breve), balao de ajuda OTA com explicacao operacional transparente."
 }
