@@ -1,6 +1,6 @@
 {
-  "version": "1.2.9",
-  "tag": "v1.2.9",
+  "version": "1.2.10",
+  "tag": "v1.2.10",
   "date": "2026-10-28",
-  "notes": "v1.2.9: Intervalo de checagem automatica de atualizacao OTA padronizado para rigorosamente a cada 20 minutos por timestamp (independente do refresh rate do PRTG)."
+  "notes": "v1.2.10: Modal de confirmacao e alerta de seguranca da informacao antes de exibir API Token normalizado, suporte a icone dinamico eye/eye-off, e aviso explicativo in-app sobre a flag de seguranca CORS do navegador com fechamento inteligente."
 }
