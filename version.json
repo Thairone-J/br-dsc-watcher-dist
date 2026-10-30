@@ -1,6 +1,6 @@
 {
-  "version": "1.2.10",
-  "tag": "v1.2.10",
-  "date": "2026-10-28",
-  "notes": "v1.2.10: Modal de confirmacao e alerta de seguranca da informacao antes de exibir API Token normalizado, suporte a icone dinamico eye/eye-off, e aviso explicativo in-app sobre a flag de seguranca CORS do navegador com fechamento inteligente."
+  "version": "1.3.0",
+  "tag": "v1.3.0",
+  "date": "2026-10-30",
+  "notes": "v1.3.0: Aba Hypercare de sites prioritarios, template de chamado ITS para SW/AP com selecao multipla e ordenacao por tempo fora, integracao Teams no bug report com limpeza automatica de campos, regra de ping estrito no SD-WAN, periodo de graca de 5min provisorio sem alarme precoce, correcao de canal de perda vs latencia, toasts sobre modais, exploradores integrados e blindagem de seguranca do launcher 8088."
 }
