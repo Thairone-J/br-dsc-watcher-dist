@@ -1,6 +1,6 @@
 {
-  "version": "1.3.3",
-  "tag": "v1.3.3",
+  "version": "1.3.4",
+  "tag": "v1.3.4",
   "date": "2026-10-30",
-  "notes": "v1.3.3: Modo Visao Macro no Hypercare com graficos integrados de Packet Loss, barra de busca fixa e responsiva, borda tracejada provisoria aplicada diretamente no card (sem tag textual) e template de chamado ITS em tabela simplificada com assinatura ISM - BR DSC."
+  "notes": "v1.3.4: Card provisorio com visual 100% normal (apenas borda tracejada de observacao), tags concisas SITE DOWN e ISP DOWN sem quebra de titulo, Hypercare com graficos dedicados para ambas as ISPs e toggle SD-WAN/ISPs, e template ITS com tabela rica nativa para Teams e Outlook."
 }
