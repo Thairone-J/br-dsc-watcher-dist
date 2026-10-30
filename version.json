@@ -1,6 +1,6 @@
 {
-  "version": "1.3.5",
-  "tag": "v1.3.5",
+  "version": "1.3.6",
+  "tag": "v1.3.6",
   "date": "2026-10-30",
-  "notes": "v1.3.5: Correcao critica na plotagem de perda de pacotes dos graficos Hypercare (alinhamento exato de horario e picos com modal do PRTG), unificacao dos seletores no toolbar superior, e atualizacao do template de e-mail de link down para DSC BR NETWORK SUPPORT."
+  "notes": "v1.3.6: Correcao definitiva de falso positivo de ISP DOWN: falhas em sensores nao-ping de SD-WAN (ex: SNMP de interfaces g1/g2) nao marcam mais a filial como ISP DOWN e nao degradam o status operacional do site."
 }
