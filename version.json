@@ -1,6 +1,6 @@
 {
-  "version": "1.3.4",
-  "tag": "v1.3.4",
+  "version": "1.3.5",
+  "tag": "v1.3.5",
   "date": "2026-10-30",
-  "notes": "v1.3.4: Card provisorio com visual 100% normal (apenas borda tracejada de observacao), tags concisas SITE DOWN e ISP DOWN sem quebra de titulo, Hypercare com graficos dedicados para ambas as ISPs e toggle SD-WAN/ISPs, e template ITS com tabela rica nativa para Teams e Outlook."
+  "notes": "v1.3.5: Correcao critica na plotagem de perda de pacotes dos graficos Hypercare (alinhamento exato de horario e picos com modal do PRTG), unificacao dos seletores no toolbar superior, e atualizacao do template de e-mail de link down para DSC BR NETWORK SUPPORT."
 }
