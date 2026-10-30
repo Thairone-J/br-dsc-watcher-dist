@@ -1,6 +1,6 @@
 {
-  "version": "1.3.0",
-  "tag": "v1.3.0",
+  "version": "1.3.1",
+  "tag": "v1.3.1",
   "date": "2026-10-30",
-  "notes": "v1.3.0: Aba Hypercare de sites prioritarios, template de chamado ITS para SW/AP com selecao multipla e ordenacao por tempo fora, integracao Teams no bug report com limpeza automatica de campos, regra de ping estrito no SD-WAN, periodo de graca de 5min provisorio sem alarme precoce, correcao de canal de perda vs latencia, toasts sobre modais, exploradores integrados e blindagem de seguranca do launcher 8088."
+  "notes": "v1.3.1: Barra de pesquisa expansivel estilo mapa para inventario e exploracao rapida, correcao de crash de cards na visao geral e painel, contorno tracejado discreto em quedas provisorias, integracao Teams sem icone e template de chamado ITS para ativos LAN."
 }
