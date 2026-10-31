@@ -1,6 +1,12 @@
 {
-  "version": "1.3.7",
-  "tag": "v1.3.7",
-  "date": "2026-10-30",
-  "notes": "v1.3.7: Correcao definitiva de falso positivo de ISP DOWN: falhas em sensores nao-ping de SD-WAN (ex: SNMP de interfaces g1/g2) nao marcam mais a filial como ISP DOWN e nao degradam o status operacional do site."
+  "version": "1.3.8",
+  "tag": "v1.3.8",
+  "date": "2026-10-31",
+  "notes": "v1.3.8: Persistência permanente de filiais Hypercare, modal objetivo de novidades pós-atualização e estabilidade de telemetria.",
+  "items": [
+    "Persistência de Sites Hypercare: As filiais marcadas com estrela no Hypercare agora permanecem salvas permanentemente no seu navegador, mesmo após fechar ou reiniciar a aplicação.",
+    "Aviso de Atualização de Versão: Resumo simples e objetivo das novidades a cada atualização do Watcher com confirmação em 1 clique.",
+    "Estabilidade de Alarmes SD-WAN: Exclusão definitiva de falsos positivos de ISP DOWN causados por falhas de sensores SNMP em interfaces secundárias do SD-WAN.",
+    "Gráficos Hypercare Otimizados: Visualização dedicada por operadora (ISPs) e SD-WAN com dados de perda de pacotes e latência em tempo real."
+  ]
 }
