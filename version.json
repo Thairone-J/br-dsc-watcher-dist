@@ -1,13 +1,13 @@
 {
-  "version": "1.3.10",
-  "tag": "v1.3.10",
+  "version": "1.3.11",
+  "tag": "v1.3.11",
   "date": "2026-11-01",
-  "notes": "v1.3.10: Gráficos de Packet Loss mais precisos, métrica de Saturação (em breve), abertura e cópia de chamados ITS formatados, monitor ADM e calibração de sondas PRTG.",
+  "notes": "v1.3.11: Layout profissional do informativo de versão sem animações excessivas, linguagem operacional focada no usuário, precisão de gráficos e estabilidade das sondas PRTG.",
   "items": [
-    "Gráficos de Packet Loss Mais Precisos: Curvas de perda de pacotes calibradas diretamente com a nova granularidade métrica configurada nas sondas do PRTG.",
-    "Métrica de Saturação (Em breve): Indicador adicionado ao painel em modo prévio (blur); recurso em desenvolvimento ativo para integração SNMP detalhada de banda.",
-    "Chamado ITS via Outlook e Teams: Formatação e cópia de tabela HTML rica com fluxo de botões otimizado e eliminação de texto desformatado.",
-    "Ajuda & Governança (Grace Time): Inclusão da documentação visual do estado de borda tracejada (tolerância transitória de 5s).",
-    "Calibração de Sondas PRTG: Sites Hypercare padronizados em 100 pacotes, filiais comuns em 20 pacotes, adição de 18 novos dispositivos e isolamento de timeout."
+    "Monitoramento de Saturação de Banda: Adicionado o indicador prévio de saturação no painel principal, com ativação gradual conforme capacidade das filiais.",
+    "Gráficos de Perda de Pacotes com Maior Precisão: Visualização mais ágil e sensível de oscilações de conectividade nas operadoras.",
+    "Abertura Ágil de Chamados ITS: Envio rápido com cópia automática da tabela de ativos formatada para Outlook e Teams.",
+    "Janela de Tolerância de 5 Segundos: Documentação da borda tracejada na Ajuda para prevenção de alarmes falsos por micro-oscilações.",
+    "Calibração das Sondas PRTG: Padronização de 100 pacotes em sites críticos, 20 pacotes nas filiais e 18 novos equipamentos integrados."
   ]
 }
