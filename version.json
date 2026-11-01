@@ -1,12 +1,13 @@
 {
-  "version": "1.3.9",
-  "tag": "v1.3.9",
+  "version": "1.3.10",
+  "tag": "v1.3.10",
   "date": "2026-11-01",
-  "notes": "v1.3.9: Card Saturação (Em breve), envio simplificado para Outlook com tabela e aba avançada de Diagnóstico ADM com monitor de carga de requisições.",
+  "notes": "v1.3.10: Gráficos de Packet Loss mais precisos, métrica de Saturação (em breve), abertura e cópia de chamados ITS formatados, monitor ADM e calibração de sondas PRTG.",
   "items": [
-    "Card Saturação (Em breve): Substituição do card 'Mais tempo down' pelo indicador 'Saturação' com efeito blur (em desenvolvimento).",
-    "Chamado ITS em 1 Clique (Outlook): Envio simplificado via Outlook copiando automaticamente a tabela formatada para a área de transferência com suporte a Ctrl+V.",
-    "Aba Diagnóstico ADM no Console: Monitor exclusivo para Administrador com telemetria em tempo real (RPM, latência média, concorrência, volume de dados e sobrecarga no PRTG).",
-    "Log Detalhado de Erros da API: Rastreamento minucioso de respostas não-JSON (HTML 500/503 e login do PRTG) com captura de snippets e diagnóstico de sobrecarga da sonda."
+    "Gráficos de Packet Loss Mais Precisos: Curvas de perda de pacotes calibradas diretamente com a nova granularidade métrica configurada nas sondas do PRTG.",
+    "Métrica de Saturação (Em breve): Indicador adicionado ao painel em modo prévio (blur); recurso em desenvolvimento ativo para integração SNMP detalhada de banda.",
+    "Chamado ITS via Outlook e Teams: Formatação e cópia de tabela HTML rica com fluxo de botões otimizado e eliminação de texto desformatado.",
+    "Ajuda & Governança (Grace Time): Inclusão da documentação visual do estado de borda tracejada (tolerância transitória de 5s).",
+    "Calibração de Sondas PRTG: Sites Hypercare padronizados em 100 pacotes, filiais comuns em 20 pacotes, adição de 18 novos dispositivos e isolamento de timeout."
   ]
 }
