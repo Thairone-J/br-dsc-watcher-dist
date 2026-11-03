@@ -1,13 +1,9 @@
 {
-  "version": "1.3.12",
-  "tag": "v1.3.12",
-  "date": "2026-11-01",
-  "notes": "v1.3.12: Refinamento dos informativos operacionais de versão, monitoramento de saturação de banda, precisão de gráficos e calibração de sondas PRTG.",
+  "version": "1.3.13",
+  "tag": "v1.3.13",
+  "date": "2026-11-03",
+  "notes": "v1.3.13: Correções internas e melhorias de estabilidade.",
   "items": [
-    "Monitoramento de Saturação de Banda: Adicionado o indicador prévio de saturação no painel principal, com ativação gradual conforme capacidade das filiais.",
-    "Gráficos de Perda de Pacotes com Maior Precisão: Visualização mais ágil e sensível de oscilações de conectividade nas operadoras.",
-    "Abertura Ágil de Chamados ITS: Envio rápido com cópia automática da tabela de ativos formatada para Outlook e Teams.",
-    "Janela de Tolerância de 5 Segundos: Documentação da borda tracejada na Ajuda para prevenção de alarmes falsos por micro-oscilações.",
-    "Calibração das Sondas PRTG: Padronização de 100 pacotes em sites críticos, 20 pacotes nas filiais e 18 novos equipamentos integrados."
+    "Correções de estabilidade e melhorias internas de telemetria."
   ]
 }
