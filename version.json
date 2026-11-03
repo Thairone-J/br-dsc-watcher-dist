@@ -1,11 +1,11 @@
 {
-  "version": "1.3.14",
-  "tag": "v1.3.14",
+  "version": "1.3.15",
+  "tag": "v1.3.15",
   "date": "2026-11-03",
-  "notes": "v1.3.14: Correção crítica na segregação de métricas de telemetria (Ping Time em ms vs Packet Loss em %) e precisão de gráficos históricos.",
+  "notes": "v1.3.15: Correção fundamental na exibição de indisponibilidade nos gráficos históricos: vinculação do canal Downtime à Perda de Pacotes (100% loss em quedas de link) e exibição precisa de Timeout na Latência.",
   "items": [
-    "Segregação Estrita de Métricas: Gráficos de Latência (ms) e Perda de Pacotes (%) agora operam com isolamento total de canais, prevenindo inversão de métricas em sensores com canal primário customizado no PRTG.",
-    "Reconhecimento de Fuso e Horário 12h/AM-PM: Correção no parser de registros históricos para servidores com idioma em inglês, alinhando a série temporal com exatidão em tempo real.",
-    "Compatibilidade Aprimorada com Sondas PRTG: Fallback inteligente que valida unidades de medida (% e ms) antes de plotar pontos de conectividade."
+    "Vinculação de Quedas à Perda de Pacotes: O canal nativo Downtime do PRTG agora é incorporado diretamente à série de Packet Loss. Quando um link cai, o gráfico de Perda de Pacotes atinge 100% imediatamente, em vez de permanecer incorretamente em 0%.",
+    "Métrica de Latência em Timeout: Durante períodos de indisponibilidade total, a Latência é assinalada estritamente como Timeout (0 ms no gráfico e indicação clara nos indicadores e tooltips), mantendo a integridade analítica.",
+    "Precisão na Detecção de Inatividade: Cobertura automática para canais de downtime em múltiplos idiomas e formatos de sonda PRTG."
   ]
 }
