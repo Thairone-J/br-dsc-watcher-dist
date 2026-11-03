@@ -1,9 +1,11 @@
 {
-  "version": "1.3.13",
-  "tag": "v1.3.13",
+  "version": "1.3.14",
+  "tag": "v1.3.14",
   "date": "2026-11-03",
-  "notes": "v1.3.13: Correções internas e melhorias de estabilidade.",
+  "notes": "v1.3.14: Correção crítica na segregação de métricas de telemetria (Ping Time em ms vs Packet Loss em %) e precisão de gráficos históricos.",
   "items": [
-    "Correções de estabilidade e melhorias internas de telemetria."
+    "Segregação Estrita de Métricas: Gráficos de Latência (ms) e Perda de Pacotes (%) agora operam com isolamento total de canais, prevenindo inversão de métricas em sensores com canal primário customizado no PRTG.",
+    "Reconhecimento de Fuso e Horário 12h/AM-PM: Correção no parser de registros históricos para servidores com idioma em inglês, alinhando a série temporal com exatidão em tempo real.",
+    "Compatibilidade Aprimorada com Sondas PRTG: Fallback inteligente que valida unidades de medida (% e ms) antes de plotar pontos de conectividade."
   ]
 }
