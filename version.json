@@ -1,11 +1,11 @@
 {
-  "version": "1.4.1",
-  "tag": "v1.4.1",
+  "version": "1.4.2",
+  "tag": "v1.4.2",
   "date": "2026-11-03",
-  "notes": "v1.4.1: Especificação exaustiva das regras de negócio analíticas do Watcher vs coleta bruta do PRTG e reorganização dos atalhos de teclado em Configurações.",
+  "notes": "v1.4.2: Modal proativo ao retornar do segundo plano e histórico consolidado das últimas 5 atualizações no modal de novidades.",
   "items": [
-    "Regras de Negócio e Inteligência Analítica: Detalhamento exaustivo da camada analítica (dedução topológica de nomes, dual-homing e contingência de filiais, grace time de 5 minutos anti-flapping, reconciliação de Downtime para Packet Loss e segregação WAN vs LAN).",
-    "Reorganização dos Atalhos de Teclado: Atalhos de navegação movidos para o final da janela de Configurações, garantindo uma interface de ajuda mais limpa e foco operacional.",
-    "Refinamento de Governança: Seção comparativa clara explicando o que é dado bruto de sonda do PRTG versus lógica de decisão do Watcher."
+    "Modal de Retorno do Segundo Plano: Alerta exibido diretamente em janela modal para confirmação imediata de atualização dos dados do PRTG após período de inatividade.",
+    "Histórico das Últimas 5 Atualizações: Visualização unificada com tags de versão, data de publicação e diferenciação visual entre melhorias e correções.",
+    "Governança Operacional: Facilidade de acompanhamento contínuo da evolução da plataforma diretamente pelos operadores."
   ]
 }
