@@ -1,11 +1,11 @@
 {
-  "version": "1.4.2",
-  "tag": "v1.4.2",
+  "version": "1.4.21",
+  "tag": "v1.4.21",
   "date": "2026-11-03",
-  "notes": "v1.4.2: Modal proativo ao retornar do segundo plano e histórico consolidado das últimas 5 atualizações no modal de novidades.",
+  "notes": "v1.4.21: Correção na seleção de ativos LAN para chamados ITS com suporte a filtro e calibração do alerta de segundo plano para 5 minutos.",
   "items": [
-    "Modal de Retorno do Segundo Plano: Alerta exibido diretamente em janela modal para confirmação imediata de atualização dos dados do PRTG após período de inatividade.",
-    "Histórico das Últimas 5 Atualizações: Visualização unificada com tags de versão, data de publicação e diferenciação visual entre melhorias e correções.",
-    "Governança Operacional: Facilidade de acompanhamento contínuo da evolução da plataforma diretamente pelos operadores."
+    "Chamados ITS LAN Precisos: A seleção de switches/APs e a ação 'Selecionar Todos' agora atuam estritamente sobre os itens visíveis no filtro/busca ativa, eliminando inclusão indevida de dispositivos ocultos.",
+    "Segundo Plano Calibrado: O modal de atualização agora só é acionado caso a aplicação tenha ficado inativa por 5 minutos ou mais com telemetria desatualizada.",
+    "Mensagem Simplificada: Alerta direto ao ponto com o título 'Estava com o Watcher em segundo plano? Atualize agora'."
   ]
 }
