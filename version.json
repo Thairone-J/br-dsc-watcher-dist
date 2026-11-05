@@ -1,10 +1,10 @@
 {
-  "version": "1.4.22",
-  "tag": "v1.4.22",
+  "version": "1.4.23",
+  "tag": "v1.4.23",
   "date": "2026-11-05",
-  "notes": "v1.4.22: Correção do indicador operacional do SD-WAN (dot vermelho quando inacessível) e redesign elegante do filtro > 24h fora na aba LAN.",
+  "notes": "v1.4.23: Seleção flexível de ISPs em Hypercare (> 2 links) e correção da detecção de segundo plano/inatividade.",
   "items": [
-    "Indicador SD-WAN Fiel: Quando o equipamento SD-WAN não responde ou apresenta perda total/downtime, o indicador de status passa a exibir vermelho (Down) ou amarelo (Degradado), corrigindo o cenário onde permanecia verde.",
-    "Filtro LAN > 24h Modernizado: Controle visual em chip/pill alinhado aos padrões da interface, com iluminação de estado em tom âmbar e posicionamento coeso ao lado dos filtros por tipo de equipamento."
+    "Seleção Discreta de ISPs em Hypercare: Em filiais com mais de 2 links (ex: 3 ISPs), agora é possível selecionar exatamente quais 2 links exibir lado a lado nos gráficos de 2h, mantendo o layout limpo e padronizado em 2 colunas.",
+    "Detecção Precisa de Retorno do Segundo Plano: Correção da checagem de inatividade comparando diretamente o tempo ausente e a defasagem da última sincronização (5 minutos), com pausa consciente de consultas em segundo plano para poupar consumo de rede."
   ]
 }
