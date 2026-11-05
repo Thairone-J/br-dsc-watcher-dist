@@ -1,10 +1,11 @@
 {
-  "version": "1.4.23",
-  "tag": "v1.4.23",
+  "version": "1.4.24",
+  "tag": "v1.4.24",
   "date": "2026-11-05",
-  "notes": "v1.4.23: Seleção flexível de ISPs em Hypercare (> 2 links) e correção da detecção de segundo plano/inatividade.",
+  "notes": "v1.4.24: Modo interativo com blur para troca de ISPs em Hypercare, refinamento do modal de segundo plano e footer de novidades com atalho para reporte de bugs.",
   "items": [
-    "Seleção Discreta de ISPs em Hypercare: Em filiais com mais de 2 links (ex: 3 ISPs), agora é possível selecionar exatamente quais 2 links exibir lado a lado nos gráficos de 2h, mantendo o layout limpo e padronizado em 2 colunas.",
-    "Detecção Precisa de Retorno do Segundo Plano: Correção da checagem de inatividade comparando diretamente o tempo ausente e a defasagem da última sincronização (5 minutos), com pausa consciente de consultas em segundo plano para poupar consumo de rede."
+    "Troca Visual de ISPs em Hypercare: Novo fluxo com botão 'Alterar ISP' no cabeçalho do card. Ao ativar, os gráficos recebem efeito de blur e seletores centralizados permitem escolher dinamicamente qual link exibir em cada slot, salvando a preferência diretamente no rodapé.",
+    "Modal de Segundo Plano Focado: Removidos botões de fechar e X, mantendo ação única e direta de 'Atualizar Agora'.",
+    "Rodapé de Novidades & Histórico: Botão 'Entendi' perfeitamente centralizado e acréscimo de link discreto para abertura direta do modal de reporte de bugs."
   ]
 }
