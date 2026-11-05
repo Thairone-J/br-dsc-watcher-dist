@@ -1,11 +1,10 @@
 {
-  "version": "1.4.21",
-  "tag": "v1.4.21",
-  "date": "2026-11-03",
-  "notes": "v1.4.21: Correção na seleção de ativos LAN para chamados ITS com suporte a filtro e calibração do alerta de segundo plano para 5 minutos.",
+  "version": "1.4.22",
+  "tag": "v1.4.22",
+  "date": "2026-11-05",
+  "notes": "v1.4.22: Correção do indicador operacional do SD-WAN (dot vermelho quando inacessível) e redesign elegante do filtro > 24h fora na aba LAN.",
   "items": [
-    "Chamados ITS LAN Precisos: A seleção de switches/APs e a ação 'Selecionar Todos' agora atuam estritamente sobre os itens visíveis no filtro/busca ativa, eliminando inclusão indevida de dispositivos ocultos.",
-    "Segundo Plano Calibrado: O modal de atualização agora só é acionado caso a aplicação tenha ficado inativa por 5 minutos ou mais com telemetria desatualizada.",
-    "Mensagem Simplificada: Alerta direto ao ponto com o título 'Estava com o Watcher em segundo plano? Atualize agora'."
+    "Indicador SD-WAN Fiel: Quando o equipamento SD-WAN não responde ou apresenta perda total/downtime, o indicador de status passa a exibir vermelho (Down) ou amarelo (Degradado), corrigindo o cenário onde permanecia verde.",
+    "Filtro LAN > 24h Modernizado: Controle visual em chip/pill alinhado aos padrões da interface, com iluminação de estado em tom âmbar e posicionamento coeso ao lado dos filtros por tipo de equipamento."
   ]
 }
