@@ -1,14 +1,13 @@
 {
-  "version": "1.5.5",
-  "tag": "v1.5.5",
+  "version": "1.5.6",
+  "tag": "v1.5.6",
   "date": "2026-11-07",
-  "notes": "v1.5.5: Consulta multipass aos logs estendidos do PRTG (historico de 30 dias com filtros de status), classificacao estrita de quedas reais vs degradacao, rotulos compactos de barras sem quebra de linha, icone de alerta para degradacao, identificacao real das operadoras (ISP) no modal e secao de expansao com efeito blur.",
+  "notes": "v1.5.6: Eliminacao definitiva de timeouts no PRTG com paginacao sequencial limpa (cobertura real de 30 dias com ate 25.000 mensagens), classificacao estrita de limites de perda exclusivamente como degradacao, novo modal mandatorio de alerta ao ingressar em Relatorios (Beta), estilizacao sneak peek da terceira secao e destaque absoluto para operadoras (ISP) e designacoes no historico cronologico.",
   "items": [
-    "Logs Estendidos PRTG (Cobertura Historica 30d): Implementada consulta multi-pass com filtros de status no PRTG (status 5 para Down puro e status 4 para Alertas) para superar o limite de 2500 mensagens de varredura recente, alcancando semanas e meses de historico real.",
-    "Classificacao Estrita de Quedas vs Degradacao: Mensagens de 'Packet loss above error limit' sao categorizadas exclusivamente como degradacao, reservando o status de queda apenas para desconexoes reais, timeouts ICMP e 100% de perda.",
-    "Barras Analiticas Compactas sem Quebra de Linha: Reducao das dimensoes das barras e ajuste de rotulos ('X quedas' / 'X ocorrencias') eliminando quebras visuais e tempos de duracao desnecessarios.",
-    "Icone Padronizado de Alerta: Substituicao do icone de degradacao para triangulo de alerta nos cards de relatorios.",
-    "Identificacao Real das Operadoras no Modal: Destaque para o nome real da operadora (Claro, Vivo, Algar, Embratel, SD-WAN) como titulo principal de cada roteador, com designacao e circuito detalhados na linha inferior.",
-    "Secao Inferior com Efeito Blur Aprimorado: Card inferior com layout realista sob vidro fosco (backdrop blur) e badge 'Em desenvolvimento'."
+    "Eliminacao de Timeouts no PRTG via Paginacao Pura: Remocao completa do filtro de status na tabela de mensagens (causador de travamentos e full table scans no servidor), adotando paginacao nativa por offset e consulta complementar direcionada a objetos WAN cobrindo 30 dias de registros.",
+    "Modal Mandatorio de Homologacao em Relatorios: Abertura automatica de modal informativo ao acessar a aba Relatorios, sinalizando ambiente em testes/validacao e canal para envio de logs de erro antes da utilizacao oficial.",
+    "Classificacao Estrita contra Falsos Positivos de Queda: Tratamento aprimorado com regex para mensagens de limites de erro ('packet loss is above the error limit'), direcionando-as exclusivamente para degradacao e exigindo timeout ou perda de 100% para contabilizacao de Down.",
+    "Destaque Visual para ISP e Circuito no Modal: Reestruturacao das linhas de historico cronologico com celula dedicada e proeminente para a operadora (Claro, Vivo, SD-WAN) e circuito/designacao, removendo textos brutos desnecessarios de milissegundos.",
+    "Secao Inferior com Estilo Sneak Peek: Alinhamento visual da secao em desenvolvimento com o padrao do card de saturacao (blur suave de 1.2px, opacidade calibrada e selo 'Em breve')."
   ]
 }
