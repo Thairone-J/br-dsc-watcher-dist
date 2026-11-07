@@ -1,14 +1,14 @@
 {
-  "version": "1.5.4",
-  "tag": "v1.5.4",
+  "version": "1.5.5",
+  "tag": "v1.5.5",
   "date": "2026-11-07",
-  "notes": "v1.5.4: Redesenho completo de Relatorios (Beta) com duas secoes lado a lado (Quedas WAN reais e Degradacao > 5%), banner de aviso Beta, secao em desenvolvimento com blur e modal analitico detalhado por filial com roteadores e historico de transicoes.",
+  "notes": "v1.5.5: Consulta multipass aos logs estendidos do PRTG (historico de 30 dias com filtros de status), classificacao estrita de quedas reais vs degradacao, rotulos compactos de barras sem quebra de linha, icone de alerta para degradacao, identificacao real das operadoras (ISP) no modal e secao de expansao com efeito blur.",
   "items": [
-    "Redesenho de Relatorios em 2 Secoes Lado a Lado: Visualizacao simetrica dedicada para Filiais com Quedas WAN (Down Real estrito) e Circuitos com Degradacao (> 5% perda) exibindo todas as filiais com barras proporcionais.",
-    "Modal Analitico Detalhado da Filial: Abertura instantanea de modal ao clicar em qualquer filial das listas, exibindo quebra de ocorrencias por roteador/circuito (SD-WAN, ISP 1, ISP 2) com barras comparativas e historico cronologico completo de transicoes (caiu/subiu) com icones direcionais e timestamp de inicio dos logs.",
-    "Banner Beta com Acesso a Bug Report: Novo cabecalho discreto em tom de alerta substituindo antigos KPIs, com botao direto para abertura do modal de reporte de inconsistencias.",
-    "Secao Inferior em Desenvolvimento: Container reservado com efeito blur e indicador 'Em desenvolvimento' para futuras expansoes.",
-    "Cards Dedicados de Filial em LAN: Reorganizacao dos ativos LAN em cards individuais por filial com selecao em lote e formato compacto (AP | IP).",
-    "Calibracao de Alerta de Segundo Plano: Ajuste do gatilho de deteccao de segundo plano e inatividade para 15 minutos."
+    "Logs Estendidos PRTG (Cobertura Historica 30d): Implementada consulta multi-pass com filtros de status no PRTG (status 5 para Down puro e status 4 para Alertas) para superar o limite de 2500 mensagens de varredura recente, alcancando semanas e meses de historico real.",
+    "Classificacao Estrita de Quedas vs Degradacao: Mensagens de 'Packet loss above error limit' sao categorizadas exclusivamente como degradacao, reservando o status de queda apenas para desconexoes reais, timeouts ICMP e 100% de perda.",
+    "Barras Analiticas Compactas sem Quebra de Linha: Reducao das dimensoes das barras e ajuste de rotulos ('X quedas' / 'X ocorrencias') eliminando quebras visuais e tempos de duracao desnecessarios.",
+    "Icone Padronizado de Alerta: Substituicao do icone de degradacao para triangulo de alerta nos cards de relatorios.",
+    "Identificacao Real das Operadoras no Modal: Destaque para o nome real da operadora (Claro, Vivo, Algar, Embratel, SD-WAN) como titulo principal de cada roteador, com designacao e circuito detalhados na linha inferior.",
+    "Secao Inferior com Efeito Blur Aprimorado: Card inferior com layout realista sob vidro fosco (backdrop blur) e badge 'Em desenvolvimento'."
   ]
 }
