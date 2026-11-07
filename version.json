@@ -1,15 +1,14 @@
 {
-  "version": "1.5.3",
-  "tag": "v1.5.3",
+  "version": "1.5.4",
+  "tag": "v1.5.4",
   "date": "2026-11-07",
-  "notes": "v1.5.3: Correcao critica de escopo na funcao de traducao da UI (TypeError: t is not a function) e estabilizacao do renderizador.",
+  "notes": "v1.5.4: Redesenho completo de Relatorios (Beta) com duas secoes lado a lado (Quedas WAN reais e Degradacao > 5%), banner de aviso Beta, secao em desenvolvimento com blur e modal analitico detalhado por filial com roteadores e historico de transicoes.",
   "items": [
-    "Fix Critico de Renderizacao UI: Eliminado conflito de variavel de escopo na funcao de traducao (TypeError: t is not a function).",
-    "Fix de Ciclo de Telemetria: Correcao do escopo de messages no modelo de rede (cycleData).",
-    "Cards Dedicados de Filial em LAN: Reorganizacao completa dos ativos LAN em cards por filial com selecao em lote, eliminando a tabela anterior confusa e preservando formato compacto (AP | IP).",
-    "Ingestao e Consulta Ativa de Logs PRTG nos Relatorios (Beta): Integracao com endpoint de logs do PRTG (ate 2500 registros) alimentando ranking de recorrencia de quedas e tabela historica.",
-    "Filtro de Inclusao de Operacionais LAN: Novo seletor toggle ao lado da busca permitindo pesquisar tanto ativos em alarme quanto equipamentos operacionais (UP) simultaneamente.",
-    "Contador Dinamico de Chamado ITS: Exibicao em tempo real do numero de ativos selecionados com botao Selecionar Todos no toolbar.",
+    "Redesenho de Relatorios em 2 Secoes Lado a Lado: Visualizacao simetrica dedicada para Filiais com Quedas WAN (Down Real estrito) e Circuitos com Degradacao (> 5% perda) exibindo todas as filiais com barras proporcionais.",
+    "Modal Analitico Detalhado da Filial: Abertura instantanea de modal ao clicar em qualquer filial das listas, exibindo quebra de ocorrencias por roteador/circuito (SD-WAN, ISP 1, ISP 2) com barras comparativas e historico cronologico completo de transicoes (caiu/subiu) com icones direcionais e timestamp de inicio dos logs.",
+    "Banner Beta com Acesso a Bug Report: Novo cabecalho discreto em tom de alerta substituindo antigos KPIs, com botao direto para abertura do modal de reporte de inconsistencias.",
+    "Secao Inferior em Desenvolvimento: Container reservado com efeito blur e indicador 'Em desenvolvimento' para futuras expansoes.",
+    "Cards Dedicados de Filial em LAN: Reorganizacao dos ativos LAN em cards individuais por filial com selecao em lote e formato compacto (AP | IP).",
     "Calibracao de Alerta de Segundo Plano: Ajuste do gatilho de deteccao de segundo plano e inatividade para 15 minutos."
   ]
 }
