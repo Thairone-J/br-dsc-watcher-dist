@@ -1,13 +1,13 @@
 {
-  "version": "1.5.0",
-  "tag": "v1.5.0",
+  "version": "1.5.1",
+  "tag": "v1.5.1",
   "date": "2026-11-07",
-  "notes": "v1.5.0: Agrupamento LAN por site com visualizacao compacta, inclusao de operacionais, contador no chamado ITS, nova secao de Relatorios executivos (Beta) e calibracao de segundo plano.",
+  "notes": "v1.5.1: Redesenho do agrupamento LAN em cards dedicados por filial, ingestao e consulta de logs historicos PRTG na aba Relatorios (Beta) e calibracao de inatividade.",
   "items": [
-    "Agrupamento LAN por Site: Organizacao automatica de switches e APs por filial, eliminando redundancias visuais e adotando padrao compacto (ex: AP | IP) preservando nomes completos para abertura de chamados.",
-    "Filtro de Inclusao de Operacionais LAN: Novo seletor toggle ao lado da busca que permite pesquisar e inspecionar ativos operacionais (UP) e em alarme simultaneamente.",
-    "Contador Dinamico de Chamado ITS: Exibicao em tempo real do numero exato de ativos selecionados no botao de acao, com selecao facilitada por grupo de filial.",
-    "Relatorios & Telemetria WAN (Beta): Nova aba com KPIs executivos, ranking de indisponibilidade acumulada, links com perda acima de 5% e inventario analitico de confiabilidade PRTG (30 dias).",
-    "Calibracao de Alerta de Inatividade: Ajuste do gatilho de deteccao de inatividade e segundo plano para 15 minutos."
+    "Cards Dedicados de Filial em LAN: Reorganizacao completa dos ativos LAN em cards por filial com selecao em lote, eliminando a tabela anterior confusa e preservando formato compacto (AP | IP).",
+    "Ingestao e Consulta Ativa de Logs PRTG nos Relatorios (Beta): Integracao com endpoint de logs do PRTG (ate 2500 registros) alimentando ranking de recorrencia de quedas e tabela historica.",
+    "Filtro de Inclusao de Operacionais LAN: Novo seletor toggle ao lado da busca permitindo pesquisar tanto ativos em alarme quanto equipamentos operacionais (UP) simultaneamente.",
+    "Contador Dinamico de Chamado ITS: Exibicao em tempo real do numero de ativos selecionados com botao Selecionar Todos no toolbar.",
+    "Calibracao de Alerta de Segundo Plano: Ajuste do gatilho de deteccao de segundo plano e inatividade para 15 minutos."
   ]
 }
