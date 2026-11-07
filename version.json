@@ -1,10 +1,10 @@
 {
-  "version": "1.5.7",
-  "tag": "v1.5.7",
+  "version": "1.5.71",
+  "tag": "v1.5.71",
   "date": "2026-11-07",
-  "notes": "v1.5.7: Ajuste no efeito de blur da secao inferior de relatorios para blur puro (sem textos ou rotulos legiveis), com transicao suave no hover mantendo o conteudo completamente protegido contra leitura.",
+  "notes": "v1.5.71: Otimizacao do fluxo de atualizacao e calibracao de responsividade da interface.",
   "items": [
-    "Blur Puro na Terceira Secao de Relatorios: Remocao de titulos e rotulos legiveis da secao em desenvolvimento, aplicando desfoque gaussiano puro (8px) sobre silhuetas visuais abstratas de telemetria.",
-    "Transicao Suave ao Passar o Mouse (Hover): Efeito calibrado no hover (reduz de 8px para 4.5px de forma suave) proporcionando dinamismo visual sem comprometer a protecao do conteudo futuro."
+    "Aprimoramento Contínuo de Telemetria: Refinamento dos fluxos de atualizacao e validacao estatistica de dados.",
+    "Estabilizacao de Desempenho da Interface: Calibracao de renderizacao de componentes e responsividade."
   ]
 }
