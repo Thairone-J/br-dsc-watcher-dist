@@ -1,9 +1,10 @@
 {
-  "version": "1.5.1",
-  "tag": "v1.5.1",
+  "version": "1.5.2",
+  "tag": "v1.5.2",
   "date": "2026-11-07",
-  "notes": "v1.5.1: Redesenho do agrupamento LAN em cards dedicados por filial, ingestao e consulta de logs historicos PRTG na aba Relatorios (Beta) e calibracao de inatividade.",
+  "notes": "v1.5.2: Correcao critica de ciclo de telemetria (ReferenceError cycleData) e estabilizacao do modelo de rede.",
   "items": [
+    "Fix Critico de Ciclo de Telemetria: Correcao do escopo de messages no modelo de rede (ReferenceError: cycleData is not defined).",
     "Cards Dedicados de Filial em LAN: Reorganizacao completa dos ativos LAN em cards por filial com selecao em lote, eliminando a tabela anterior confusa e preservando formato compacto (AP | IP).",
     "Ingestao e Consulta Ativa de Logs PRTG nos Relatorios (Beta): Integracao com endpoint de logs do PRTG (ate 2500 registros) alimentando ranking de recorrencia de quedas e tabela historica.",
     "Filtro de Inclusao de Operacionais LAN: Novo seletor toggle ao lado da busca permitindo pesquisar tanto ativos em alarme quanto equipamentos operacionais (UP) simultaneamente.",
