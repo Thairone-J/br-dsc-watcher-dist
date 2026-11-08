@@ -1,11 +1,11 @@
 {
-  "version": "1.6.4",
-  "tag": "v1.6.4",
+  "version": "1.6.5",
+  "tag": "v1.6.5",
   "date": "2026-11-08",
-  "notes": "v1.6.4: Correcao de conversao Bytes/s para Mbit/s nos graficos SNMP, revisao da aba Relatorios com pareamento cronologico DOWN/UP, melhorias de selecao LAN e ajustes completos de Light Mode.",
+  "notes": "v1.6.5: Visao Geral LAN por filial (SW e AP com classificacao Verde/Amarelo/Vermelho), animacao em 3 estagios do indicador de sincronizacao (Spinner, Check e Timer) e tarja diagonal Iron no Mural.",
   "items": [
-    "Grafico Historico SNMP em Mbit/s: Conversao nativa das colunas Speed do PRTG de Bytes/s para Mbit/s, exibindo a taxa real de trafego no grafico.",
-    "Relatorios WAN e Historico de Quedas: Pareamento cronologico estrito de transicoes DOWN e UP por circuito e contabilizacao exata por roteador.",
-    "Refinamento de Selecao LAN e Light Mode: Selecao precisa por checkbox sem abrir o modal de inspecao acidentalmente e contraste corrigido no modo claro em todas as abas."
+    "Visao Geral LAN por Filial: Alternancia entre Lista e Visao Geral na aba LAN, exibindo contadores de Switches (SW) e Access Points (AP) por filial com cores de severidade (Verde: 100% UP, Amarelo: queda < 24h, Vermelho: queda > 24h).",
+    "Indicador de Sincronizacao em 3 Estagios: Ponto luminoso pulsante e spinner rotativo durante a consulta ao PRTG, seguido de check de confirmacao e retorno suave ao anel temporizador.",
+    "Tarja Diagonal Iron na Visao Geral: Identificacao visual da Topologia Iron no canto superior direito da celula sem descentralizar o codigo do site."
   ]
 }
