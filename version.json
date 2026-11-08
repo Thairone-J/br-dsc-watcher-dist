@@ -1,11 +1,13 @@
 {
-  "version": "1.6.5",
-  "tag": "v1.6.5",
+  "version": "1.6.6",
+  "tag": "v1.6.6",
   "date": "2026-11-08",
-  "notes": "v1.6.5: Visao Geral LAN por filial (SW e AP com classificacao Verde/Amarelo/Vermelho), animacao em 3 estagios do indicador de sincronizacao (Spinner, Check e Timer) e tarja diagonal Iron no Mural.",
+  "notes": "v1.6.6: Visao Geral LAN minimalista com mini barras graficas e ratios limpos, animacao de telemetria no sincronismo (disparo e tiros de pacotes), anel de progresso nos relatorios e tag explicativa PRTG.",
   "items": [
-    "Visao Geral LAN por Filial: Alternancia entre Lista e Visao Geral na aba LAN, exibindo contadores de Switches (SW) e Access Points (AP) por filial com cores de severidade (Verde: 100% UP, Amarelo: queda < 24h, Vermelho: queda > 24h).",
-    "Indicador de Sincronizacao em 3 Estagios: Ponto luminoso pulsante e spinner rotativo durante a consulta ao PRTG, seguido de check de confirmacao e retorno suave ao anel temporizador.",
-    "Tarja Diagonal Iron na Visao Geral: Identificacao visual da Topologia Iron no canto superior direito da celula sem descentralizar o codigo do site."
+    "Visao Geral LAN Minimalista: Remocao de tags pesadas nos cards por filial, exibindo apenas LATO e nome da unidade com mini barras graficas proporcionais (SW e AP) e contadores limpos de operacionais vs down.",
+    "Telemetria no Sincronismo do Header: Animacao realista com apagamento inicial, 3 tiros rapidos de dados (transmissao de pacotes), espera e estabilizacao enquanto o spinner gira continuamente.",
+    "Progresso Progressivo nos Relatorios: Indicador circular com percentual simulado gradual (0-40 rapido, 40-70 rapido, 80 moderado e 90+ gradual em espera) durante a busca assincrona dos logs.",
+    "Aprimoramento da Janela PRTG: Tag explicativa detalhando a busca experimental e a complexidade de consolidacao de 30 dias contínuos em mais de 2.000 sensores.",
+    "Espaco na Topologia Iron: Respiro visual ajustado entre o badge Topologia Iron com icone de ajuda e o modo operacional Ativo-Ativo no modal."
   ]
 }
