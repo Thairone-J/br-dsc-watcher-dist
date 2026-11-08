@@ -1,11 +1,11 @@
 {
-  "version": "1.6.0",
-  "tag": "v1.6.0",
+  "version": "1.6.1",
+  "tag": "v1.6.1",
   "date": "2026-11-08",
-  "notes": "v1.6.0: Suporte nativo a Topologia Iron (2 SD-WANs fisicos IRON-P / IRON-S, 1 SD-WAN Virtual VIP e 3 links DIA com failover automatico).",
+  "notes": "v1.6.1: Refinamento visual da Topologia Iron (SDWAN VIP abracando SDWAN Primário e SDWAN Secundário, diagrama arquitetural no modal principal e correcao dos cards no painel WAN).",
   "items": [
-    "Motor de Topologia Iron: Identificacao automatica de SDWAN IRON (VIP), SDWAN IRON-P (Ativo-Ativo com links Primario e Secundario) e SDWAN IRON-S (Standby/Contingencia com link Backup).",
-    "Maquina de Estado Operacional Iron: Diferenciacao precisa entre Operacao Ativo-Ativo, Contingencia no Backup (IRON-S), Sem Redundancia e Queda Total.",
-    "Visualizacao em Clusters nos Cards WAN, Hypercare e Inspetor 360: Agrupamento dedicado por cluster (IRON-P, IRON-S e VIP SNMP) e graficos duplos de SD-WAN no modo Hypercare."
+    "Nomenclatura amigavel: SDWAN VIP, SDWAN Primário e SDWAN Secundário com exibicao do IP abaixo do nome e telemetria SNMP consolidada (trafego somado).",
+    "Barra lateral e diagrama de Topologia Iron no modal principal: Envelope azul unificado com SDWAN VIP abracando os SD-WANs fisicos e seus links DIA, mais diagrama interativo acima do grafico.",
+    "Correcao dos cards no painel WAN: Grade compacta 3x2 sem centralizacao quebrada e sem deformar a altura dos demais cards da mesma fila."
   ]
 }
