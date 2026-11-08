@@ -1,10 +1,11 @@
 {
-  "version": "1.6.3",
-  "tag": "v1.6.3",
+  "version": "1.6.4",
+  "tag": "v1.6.4",
   "date": "2026-11-08",
-  "notes": "v1.6.3: Grafico historico de trafego SNMP em Mbit/s e modal interativo de documentacao da Topologia Iron (botao ?).",
+  "notes": "v1.6.4: Correcao de conversao Bytes/s para Mbit/s nos graficos SNMP, revisao da aba Relatorios com pareamento cronologico DOWN/UP, melhorias de selecao LAN e ajustes completos de Light Mode.",
   "items": [
-    "Grafico historico de Trafego SNMP em Mbit/s: Ao selecionar canais SNMP (como BYOD, Corporativo ou Trafego Total), o grafico exibe a curva real em Mbit/s com escala dinamica, minimo, media e maximo em Mbit/s.",
-    "Guia interativo da Topologia Iron (?): Botao de ajuda ao lado da identificacao da Topologia Iron que abre um modal explicando o funcionamento do SDWAN VIP, SDWAN Primário, SDWAN Secundário e regras de contingencia."
+    "Grafico Historico SNMP em Mbit/s: Conversao nativa das colunas Speed do PRTG de Bytes/s para Mbit/s, exibindo a taxa real de trafego no grafico.",
+    "Relatorios WAN e Historico de Quedas: Pareamento cronologico estrito de transicoes DOWN e UP por circuito e contabilizacao exata por roteador.",
+    "Refinamento de Selecao LAN e Light Mode: Selecao precisa por checkbox sem abrir o modal de inspecao acidentalmente e contraste corrigido no modo claro em todas as abas."
   ]
 }
