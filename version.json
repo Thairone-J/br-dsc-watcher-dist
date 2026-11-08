@@ -1,11 +1,10 @@
 {
-  "version": "1.6.7",
-  "tag": "v1.6.7",
+  "version": "1.6.8",
+  "tag": "v1.6.8",
   "date": "2026-11-08",
-  "notes": "v1.6.7: Cards LAN com fundo natural e bordas coloridas, sincronismo sutil (pisca para menos), UI de carregamento nos relatorios com anel rotativo e conclusao suave ao receber dados.",
+  "notes": "v1.6.8: Bolinha de status no cabecalho dos cards LAN (sem bordas coloridas pesadas) e ocultacao inteligente do filtro '> 24h fora' no modo Visao Geral.",
   "items": [
-    "Visao Geral LAN Natural: Cards com fundo padrao do sistema (sem sobrecarga de cor), concentrando o status na borda de 1px e nas mini barras proporcionais.",
-    "Sincronismo Sutil: Ponto luminoso do header com brilho calibrado ao estado natural, com pulsos atenuados sem estourar luminosidade.",
-    "UI de Carregamento nos Relatorios: Progressao calibrada (60% em 3s, subida gradual e finalizacao suave para 100% ao receber os dados) com anel de loading externo ao redor do circulo."
+    "Cards LAN com Ponto de Status: Remocao de bordas coloridas dos cards de LAN em favor de uma bolinha indicadora sutil ao lado do codigo LATO, com borda padrao uniforme.",
+    "Ocultacao do Toggle > 24h na Visao Geral: Ocultacao automatica do filtro '> 24h fora' na barra de ferramentas ao entrar em Visao Geral, evitando redundancia com os chips de severidade."
   ]
 }
