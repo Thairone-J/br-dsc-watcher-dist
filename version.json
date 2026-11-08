@@ -1,11 +1,10 @@
 {
-  "version": "1.6.2",
-  "tag": "v1.6.2",
+  "version": "1.6.3",
+  "tag": "v1.6.3",
   "date": "2026-11-08",
-  "notes": "v1.6.2: Canal OTA via GitHub Pages (sem rate limit em VPN corporativa), preservacao integral de comentarios e novo mapa visual conectado da Topologia Iron.",
+  "notes": "v1.6.3: Grafico historico de trafego SNMP em Mbit/s e modal interativo de documentacao da Topologia Iron (botao ?).",
   "items": [
-    "Canal de distribuicao OTA via GitHub Pages: Eliminacao do limite de 60 requisicoes/hora por IP em VPN corporativa e preservacao de 100% dos comentarios do codigo.",
-    "Mapa visual conectado da Topologia Iron no modal de inspecao: Diagrama em arvore com barramentos SVG entre SDWAN VIP, SDWAN Primário, SDWAN Secundário e seus circuitos DIA, com telemetria SNMP posicionada na base.",
-    "Refinamento dos cards de WAN Painel: Distribuicao limpa em duas linhas flexiveis sem truncamento e remocao de bordas coloridas laterais nos cartoes."
+    "Grafico historico de Trafego SNMP em Mbit/s: Ao selecionar canais SNMP (como BYOD, Corporativo ou Trafego Total), o grafico exibe a curva real em Mbit/s com escala dinamica, minimo, media e maximo em Mbit/s.",
+    "Guia interativo da Topologia Iron (?): Botao de ajuda ao lado da identificacao da Topologia Iron que abre um modal explicando o funcionamento do SDWAN VIP, SDWAN Primário, SDWAN Secundário e regras de contingencia."
   ]
 }
