@@ -1,11 +1,11 @@
 {
-  "version": "1.6.1",
-  "tag": "v1.6.1",
+  "version": "1.6.2",
+  "tag": "v1.6.2",
   "date": "2026-11-08",
-  "notes": "v1.6.1: Refinamento visual da Topologia Iron (SDWAN VIP abracando SDWAN Primário e SDWAN Secundário, diagrama arquitetural no modal principal e correcao dos cards no painel WAN).",
+  "notes": "v1.6.2: Canal OTA via GitHub Pages (sem rate limit em VPN corporativa), preservacao integral de comentarios e novo mapa visual conectado da Topologia Iron.",
   "items": [
-    "Nomenclatura amigavel: SDWAN VIP, SDWAN Primário e SDWAN Secundário com exibicao do IP abaixo do nome e telemetria SNMP consolidada (trafego somado).",
-    "Barra lateral e diagrama de Topologia Iron no modal principal: Envelope azul unificado com SDWAN VIP abracando os SD-WANs fisicos e seus links DIA, mais diagrama interativo acima do grafico.",
-    "Correcao dos cards no painel WAN: Grade compacta 3x2 sem centralizacao quebrada e sem deformar a altura dos demais cards da mesma fila."
+    "Canal de distribuicao OTA via GitHub Pages: Eliminacao do limite de 60 requisicoes/hora por IP em VPN corporativa e preservacao de 100% dos comentarios do codigo.",
+    "Mapa visual conectado da Topologia Iron no modal de inspecao: Diagrama em arvore com barramentos SVG entre SDWAN VIP, SDWAN Primário, SDWAN Secundário e seus circuitos DIA, com telemetria SNMP posicionada na base.",
+    "Refinamento dos cards de WAN Painel: Distribuicao limpa em duas linhas flexiveis sem truncamento e remocao de bordas coloridas laterais nos cartoes."
   ]
 }
