@@ -1,10 +1,11 @@
 {
-  "version": "1.6.8",
-  "tag": "v1.6.8",
+  "version": "1.6.9",
+  "tag": "v1.6.9",
   "date": "2026-11-08",
-  "notes": "v1.6.8: Bolinha de status no cabecalho dos cards LAN (sem bordas coloridas pesadas) e ocultacao inteligente do filtro '> 24h fora' no modo Visao Geral.",
+  "notes": "v1.6.9: Correcao arquitetural da Topologia Iron para regime Ativo-Ativo com DIA 2 Backup no SDWAN Primario e modal explicativo atualizado.",
   "items": [
-    "Cards LAN com Ponto de Status: Remocao de bordas coloridas dos cards de LAN em favor de uma bolinha indicadora sutil ao lado do codigo LATO, com borda padrao uniforme.",
-    "Ocultacao do Toggle > 24h na Visao Geral: Ocultacao automatica do filtro '> 24h fora' na barra de ferramentas ao entrar em Visao Geral, evitando redundancia com os chips de severidade."
+    "Topologia Iron Ativo-Ativo: Ambos os appliances SD-WAN fisicos operam simultaneamente em producao (Ativo-Ativo). O SDWAN Primario conecta o DIA 1 (Primario) e DIA 2 (Backup), enquanto o SDWAN Secundario conecta o Link Secundario.",
+    "Regra de Contingencia Real: O DIA 2 (Backup no Primario) permanece em prontidao e assume a operacao da filial apenas se ambos os links ativos (DIA 1 e Link Secundario) cairem.",
+    "Diagrama e Modal Explicativo: Atualizacao visual da topologia, indicacao dos barramentos ativos/backup e guia explicativo no modal de ajuda."
   ]
 }
