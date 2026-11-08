@@ -1,10 +1,11 @@
 {
-  "version": "1.5.71",
-  "tag": "v1.5.71",
-  "date": "2026-11-07",
-  "notes": "v1.5.71: Otimizacao do fluxo de atualizacao e calibracao de responsividade da interface.",
+  "version": "1.6.0",
+  "tag": "v1.6.0",
+  "date": "2026-11-08",
+  "notes": "v1.6.0: Suporte nativo a Topologia Iron (2 SD-WANs fisicos IRON-P / IRON-S, 1 SD-WAN Virtual VIP e 3 links DIA com failover automatico).",
   "items": [
-    "Aprimoramento Contínuo de Telemetria: Refinamento dos fluxos de atualizacao e validacao estatistica de dados.",
-    "Estabilizacao de Desempenho da Interface: Calibracao de renderizacao de componentes e responsividade."
+    "Motor de Topologia Iron: Identificacao automatica de SDWAN IRON (VIP), SDWAN IRON-P (Ativo-Ativo com links Primario e Secundario) e SDWAN IRON-S (Standby/Contingencia com link Backup).",
+    "Maquina de Estado Operacional Iron: Diferenciacao precisa entre Operacao Ativo-Ativo, Contingencia no Backup (IRON-S), Sem Redundancia e Queda Total.",
+    "Visualizacao em Clusters nos Cards WAN, Hypercare e Inspetor 360: Agrupamento dedicado por cluster (IRON-P, IRON-S e VIP SNMP) e graficos duplos de SD-WAN no modo Hypercare."
   ]
 }
