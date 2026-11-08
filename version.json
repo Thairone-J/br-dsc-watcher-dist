@@ -1,13 +1,11 @@
 {
-  "version": "1.6.6",
-  "tag": "v1.6.6",
+  "version": "1.6.7",
+  "tag": "v1.6.7",
   "date": "2026-11-08",
-  "notes": "v1.6.6: Visao Geral LAN minimalista com mini barras graficas e ratios limpos, animacao de telemetria no sincronismo (disparo e tiros de pacotes), anel de progresso nos relatorios e tag explicativa PRTG.",
+  "notes": "v1.6.7: Cards LAN com fundo natural e bordas coloridas, sincronismo sutil (pisca para menos), UI de carregamento nos relatorios com anel rotativo e conclusao suave ao receber dados.",
   "items": [
-    "Visao Geral LAN Minimalista: Remocao de tags pesadas nos cards por filial, exibindo apenas LATO e nome da unidade com mini barras graficas proporcionais (SW e AP) e contadores limpos de operacionais vs down.",
-    "Telemetria no Sincronismo do Header: Animacao realista com apagamento inicial, 3 tiros rapidos de dados (transmissao de pacotes), espera e estabilizacao enquanto o spinner gira continuamente.",
-    "Progresso Progressivo nos Relatorios: Indicador circular com percentual simulado gradual (0-40 rapido, 40-70 rapido, 80 moderado e 90+ gradual em espera) durante a busca assincrona dos logs.",
-    "Aprimoramento da Janela PRTG: Tag explicativa detalhando a busca experimental e a complexidade de consolidacao de 30 dias contínuos em mais de 2.000 sensores.",
-    "Espaco na Topologia Iron: Respiro visual ajustado entre o badge Topologia Iron com icone de ajuda e o modo operacional Ativo-Ativo no modal."
+    "Visao Geral LAN Natural: Cards com fundo padrao do sistema (sem sobrecarga de cor), concentrando o status na borda de 1px e nas mini barras proporcionais.",
+    "Sincronismo Sutil: Ponto luminoso do header com brilho calibrado ao estado natural, com pulsos atenuados sem estourar luminosidade.",
+    "UI de Carregamento nos Relatorios: Progressao calibrada (60% em 3s, subida gradual e finalizacao suave para 100% ao receber os dados) com anel de loading externo ao redor do circulo."
   ]
 }
