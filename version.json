@@ -1,10 +1,10 @@
 {
-  "version": "1.6.93",
-  "tag": "v1.6.93",
+  "version": "1.7.0",
+  "tag": "v1.7.0",
   "date": "2026-11-14",
-  "notes": "v1.6.93: Limpeza do subtitulo do modal de circuitos dedicados e otimizacao de espaco nos cards do Painel.",
+  "notes": "v1.7.0: Grafico duplo sobreposto de trafego (IN & OUT) e linha de limite contratado com deteccao inteligente de saturacao.",
   "items": [
-    "Subtitulo Limpo no Inspector: Remocao da duplicidade textual do cliente no subtitulo do modal de circuitos dedicados, mantendo 'Dedicado ISP Designacao' seguido pela badge do cliente, IP e telemetria.",
-    "Otimizacao de Espaco nos Cards (Painel): Remocao da tag 'IRON' do cabecalho dos cards para conceder espaco livre ao codigo e nome da filial, mantendo a indicacao da topologia no rodape ('IRON · Ativo-ativo')."
+    "Grafico Duplo Sobreposto de Trafego (IN & OUT): Visualizacao simultanea das taxas de Download/Entrada (verde esmeralda) e Upload/Saida (azul) sobrepostas com areas translucidas, permitindo diagnosticar saturacao em qualquer sentido.",
+    "Linha de Limite Contratado: Deteccao automatica da capacidade nominal na nomenclatura de sensores e links (ex.: 'Primario ISP - 400Mbps'). Exibe linha tracejada vermelha de teto com percentual de saturacao e alertas."
   ]
 }
