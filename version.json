@@ -1,11 +1,10 @@
 {
-  "version": "1.6.92",
-  "tag": "v1.6.92",
+  "version": "1.6.93",
+  "tag": "v1.6.93",
   "date": "2026-11-14",
-  "notes": "v1.6.92: Agrupamento consolidado e expansivel de circuitos dedicados nos cards do Painel, identidade visual areia/bege e simplificacao de tags.",
+  "notes": "v1.6.93: Limpeza do subtitulo do modal de circuitos dedicados e otimizacao de espaco nos cards do Painel.",
   "items": [
-    "Cards WAN Consolidados e Expansiveis: Operacoes com multiplos circuitos dedicados exibem uma pill unificada 'Dedicados (X)' com indicador de status consolidado (verde se todos UP, vermelho se houver queda) e expansao imediata in-place.",
-    "Identidade Visual Areia/Bege: Substituicao da tonalidade roxa por um tom areia/bege discreto e harmonico para circuitos dedicados, eliminando sobreposicao com a telemetria de perda de pacotes.",
-    "Tag Direta de Cliente no Inspector: Exibicao direta do nome e indice do cliente na tag (ex.: 'MERCADO LIVRE (1/2)') sem o prefixo redundante 'CLIENTE:'."
+    "Subtitulo Limpo no Inspector: Remocao da duplicidade textual do cliente no subtitulo do modal de circuitos dedicados, mantendo 'Dedicado ISP Designacao' seguido pela badge do cliente, IP e telemetria.",
+    "Otimizacao de Espaco nos Cards (Painel): Remocao da tag 'IRON' do cabecalho dos cards para conceder espaco livre ao codigo e nome da filial, mantendo a indicacao da topologia no rodape ('IRON · Ativo-ativo')."
   ]
 }
