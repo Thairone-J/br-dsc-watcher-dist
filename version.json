@@ -1,11 +1,11 @@
 {
-  "version": "1.6.9",
-  "tag": "v1.6.9",
-  "date": "2026-11-08",
-  "notes": "v1.6.9: Correcao arquitetural da Topologia Iron para regime Ativo-Ativo com DIA 2 Backup no SDWAN Primario e modal explicativo atualizado.",
+  "version": "1.6.91",
+  "tag": "v1.6.91",
+  "date": "2026-11-14",
+  "notes": "v1.6.91: Suporte a circuitos dedicados de clientes multi-customer (fora do SD-WAN central) com isolamento topologico e reconhecimento de nomenclatura PRTG.",
   "items": [
-    "Topologia Iron Ativo-Ativo: Ambos os appliances SD-WAN fisicos operam simultaneamente em producao (Ativo-Ativo). O SDWAN Primario conecta o DIA 1 (Primario) e DIA 2 (Backup), enquanto o SDWAN Secundario conecta o Link Secundario.",
-    "Regra de Contingencia Real: O DIA 2 (Backup no Primario) permanece em prontidao e assume a operacao da filial apenas se ambos os links ativos (DIA 1 e Link Secundario) cairem.",
-    "Diagrama e Modal Explicativo: Atualizacao visual da topologia, indicacao dos barramentos ativos/backup e guia explicativo no modal de ajuda."
+    "Circuitos Dedicados Multi-Customer: Reconhecimento da nomenclatura 'RO | LATO-... - CLIENTE (1/2) | Dedicado ISP circuit_id' sem truncar nomes e sem poluir o cluster SD-WAN central da filial.",
+    "Isolamento Topologico: Circuitos dedicados sao classificados em grupo proprio, garantindo que indisponibilidades de links dedicados de clientes nao afetem falsamente o status do SD-WAN ou causem blackouts indevidos na operacao principal.",
+    "Visualizacao Dedicada no Inspector e Cards: Identificacao clara de circuitos de clientes no Inspector (aba lateral e cabecalho com badge DEDICADO e cliente) e nos cards WAN."
   ]
 }
