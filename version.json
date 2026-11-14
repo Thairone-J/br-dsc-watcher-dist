@@ -1,11 +1,11 @@
 {
-  "version": "1.6.91",
-  "tag": "v1.6.91",
+  "version": "1.6.92",
+  "tag": "v1.6.92",
   "date": "2026-11-14",
-  "notes": "v1.6.91: Suporte a circuitos dedicados de clientes multi-customer (fora do SD-WAN central) com isolamento topologico e reconhecimento de nomenclatura PRTG.",
+  "notes": "v1.6.92: Agrupamento consolidado e expansivel de circuitos dedicados nos cards do Painel, identidade visual areia/bege e simplificacao de tags.",
   "items": [
-    "Circuitos Dedicados Multi-Customer: Reconhecimento da nomenclatura 'RO | LATO-... - CLIENTE (1/2) | Dedicado ISP circuit_id' sem truncar nomes e sem poluir o cluster SD-WAN central da filial.",
-    "Isolamento Topologico: Circuitos dedicados sao classificados em grupo proprio, garantindo que indisponibilidades de links dedicados de clientes nao afetem falsamente o status do SD-WAN ou causem blackouts indevidos na operacao principal.",
-    "Visualizacao Dedicada no Inspector e Cards: Identificacao clara de circuitos de clientes no Inspector (aba lateral e cabecalho com badge DEDICADO e cliente) e nos cards WAN."
+    "Cards WAN Consolidados e Expansiveis: Operacoes com multiplos circuitos dedicados exibem uma pill unificada 'Dedicados (X)' com indicador de status consolidado (verde se todos UP, vermelho se houver queda) e expansao imediata in-place.",
+    "Identidade Visual Areia/Bege: Substituicao da tonalidade roxa por um tom areia/bege discreto e harmonico para circuitos dedicados, eliminando sobreposicao com a telemetria de perda de pacotes.",
+    "Tag Direta de Cliente no Inspector: Exibicao direta do nome e indice do cliente na tag (ex.: 'MERCADO LIVRE (1/2)') sem o prefixo redundante 'CLIENTE:'."
   ]
 }
