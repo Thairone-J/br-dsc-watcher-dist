@@ -1,10 +1,9 @@
 {
-  "version": "1.7.0",
-  "tag": "v1.7.0",
+  "version": "1.7.1",
+  "tag": "v1.7.1",
   "date": "2026-11-14",
-  "notes": "v1.7.0: Grafico duplo sobreposto de trafego (IN & OUT) e linha de limite contratado com deteccao inteligente de saturacao.",
+  "notes": "v1.7.1: Padronizacao de nomenclatura de trafego para IN (Rx) e OUT (Tx).",
   "items": [
-    "Grafico Duplo Sobreposto de Trafego (IN & OUT): Visualizacao simultanea das taxas de Download/Entrada (verde esmeralda) e Upload/Saida (azul) sobrepostas com areas translucidas, permitindo diagnosticar saturacao em qualquer sentido.",
-    "Linha de Limite Contratado: Deteccao automatica da capacidade nominal na nomenclatura de sensores e links (ex.: 'Primario ISP - 400Mbps'). Exibe linha tracejada vermelha de teto com percentual de saturacao e alertas."
+    "Nomenclatura Tecnica de Rede: Substituicao de Download/Upload e Down/Up por IN (Rx) e OUT (Tx) em todos os elementos do grafico de trafego (legendas, tooltips de hover e chips de estatisticas)."
   ]
 }
