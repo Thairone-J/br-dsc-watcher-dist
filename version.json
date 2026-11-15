@@ -1,9 +1,10 @@
 {
-  "version": "1.7.1",
-  "tag": "v1.7.1",
-  "date": "2026-11-14",
-  "notes": "v1.7.1: Padronizacao de nomenclatura de trafego para IN (Rx) e OUT (Tx).",
+  "version": "1.7.2",
+  "tag": "v1.7.2",
+  "date": "2026-11-15",
+  "notes": "v1.7.2: Topologia visual interativa para filiais comuns e correcao de rotulo de filial por circuito dedicado.",
   "items": [
-    "Nomenclatura Tecnica de Rede: Substituicao de Download/Upload e Down/Up por IN (Rx) e OUT (Tx) em todos os elementos do grafico de trafego (legendas, tooltips de hover e chips de estatisticas)."
+    "Topologia Visual Interativa em Filiais Comuns: Diagrama completo no modal Inspector para sites convencionais (SD-WAN de borda, barramento SVG dinamico para 1 ou 2 links DIA, circuitos dedicados e rodape de trafego SNMP).",
+    "Correcao de Rotulo de Filial: Garantia de que nomes oficiais de grupos do PRTG nao sejam sobrescritos por circuitos dedicados de clientes multi-customer."
   ]
 }
