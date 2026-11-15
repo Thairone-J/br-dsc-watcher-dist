@@ -1,10 +1,9 @@
 {
-  "version": "1.7.2",
-  "tag": "v1.7.2",
+  "version": "1.7.21",
+  "tag": "v1.7.21",
   "date": "2026-11-15",
-  "notes": "v1.7.2: Topologia visual interativa para filiais comuns e correcao de rotulo de filial por circuito dedicado.",
+  "notes": "v1.7.21: Correcao do console de diagnostico (abas Down, Packet Loss e Sistema).",
   "items": [
-    "Topologia Visual Interativa em Filiais Comuns: Diagrama completo no modal Inspector para sites convencionais (SD-WAN de borda, barramento SVG dinamico para 1 ou 2 links DIA, circuitos dedicados e rodape de trafego SNMP).",
-    "Correcao de Rotulo de Filial: Garantia de que nomes oficiais de grupos do PRTG nao sejam sobrescritos por circuitos dedicados de clientes multi-customer."
+    "Console de Diagnostico: Corrigida a captura de eventos nas abas Down, Packet Loss e Sistema, garantindo que alarmes ativos de circuitos, degradacoes de perda de pacotes e eventos de ciclo do sistema sejam exibidos corretamente desde a inicializacao."
   ]
 }
