@@ -1,9 +1,9 @@
 {
-  "version": "1.8.1",
-  "tag": "v1.8.1",
+  "version": "1.8.12",
+  "tag": "v1.8.12",
   "date": "2026-11-22",
-  "notes": "v1.8.1: Limpeza visual na aba Saturacao removendo os cards internos redundantes para manter o foco no cabecalho principal.",
+  "notes": "v1.8.12: Adicionado modal de aviso Beta (em homologacao) ao acessar a aba Saturacao.",
   "items": [
-    "Limpeza Visual em Saturacao: Removidos os 4 cards internos redundantes do Monitor de Saturacao, mantendo os filtros rapidos por severidade e o atalho compacto para Cobertura & Bandas."
+    "Aviso de Homologacao Beta em Saturacao: Exibido dialogo de orientacao ao abrir a aba de Saturacao com atalho direto para Reportar Bug."
   ]
 }
