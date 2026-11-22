@@ -1,11 +1,9 @@
 {
-  "version": "1.8.0",
-  "tag": "v1.8.0",
+  "version": "1.8.1",
+  "tag": "v1.8.1",
   "date": "2026-11-22",
-  "notes": "v1.8.0: Desbloqueio do modulo de Saturacao de Banda WAN (Beta), Inventario de Cobertura SNMP & Bandas Contratadas e padronizacao de sensores/bandas no PRTG.",
+  "notes": "v1.8.1: Limpeza visual na aba Saturacao removendo os cards internos redundantes para manter o foco no cabecalho principal.",
   "items": [
-    "Modulo de Saturacao WAN (Beta): Desbloqueado o 4o card de Saturacao no cabecalho e a nova aba dedicada para monitorar consumo percentual em Tempo Real e por Pico 24h com limiar ajustavel.",
-    "Cobertura SNMP & Bandas Contratadas: Nova aba interna listando sites com banda identificada, sites com SNMP sem velocidade no nome e sites sem SNMP configurado, com exportacao CSV.",
-    "Ajustes no PRTG: Nomenclatura de interfaces SNMP padronizada com circuito/operadora/banda, revisao de velocidades contratadas, credenciais SNMP e organizacao de grupos WAN/LAN."
+    "Limpeza Visual em Saturacao: Removidos os 4 cards internos redundantes do Monitor de Saturacao, mantendo os filtros rapidos por severidade e o atalho compacto para Cobertura & Bandas."
   ]
 }
