@@ -1,9 +1,10 @@
 {
-  "version": "1.8.12",
-  "tag": "v1.8.12",
+  "version": "1.8.2",
+  "tag": "v1.8.2",
   "date": "2026-11-22",
-  "notes": "v1.8.12: Adicionado modal de aviso Beta (em homologacao) ao acessar a aba Saturacao.",
+  "notes": "v1.8.2: Destaque visual animado da entrega v1.8 (Saturacao de Banda WAN Beta + Cobertura SNMP) e realce de 5s no novo 4o card ao fechar novidades.",
   "items": [
-    "Aviso de Homologacao Beta em Saturacao: Exibido dialogo de orientacao ao abrir a aba de Saturacao com atalho direto para Reportar Bug."
+    "Destaque v1.8 em O que ha de novo: Apresentacao visual animada do novo indicador de Saturacao de Banda e bloco unificado v1.8 com todas as entregas de Saturacao e ajustes de SNMP/Bandas no PRTG.",
+    "Spotlight no 4o Card: Ao fechar o modal de novidades, o card de Saturacao exibe animacao de borda gradiente por 5 segundos para evidenciar o novo campo sem interferir no uso."
   ]
 }
