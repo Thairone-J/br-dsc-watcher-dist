@@ -1,10 +1,10 @@
 {
-  "version": "1.8.2",
-  "tag": "v1.8.2",
+  "version": "1.8.3",
+  "tag": "v1.8.3",
   "date": "2026-11-22",
-  "notes": "v1.8.2: Destaque visual animado da entrega v1.8 (Saturacao de Banda WAN Beta + Cobertura SNMP) e realce de 5s no novo 4o card ao fechar novidades.",
+  "notes": "v1.8.3: Correcao critica no parser de velocidade e filtragem de picos anomalos de contador SNMP na varredura 24h.",
   "items": [
-    "Destaque v1.8 em O que ha de novo: Apresentacao visual animada do novo indicador de Saturacao de Banda e bloco unificado v1.8 com todas as entregas de Saturacao e ajustes de SNMP/Bandas no PRTG.",
-    "Spotlight no 4o Card: Ao fechar o modal de novidades, o card de Saturacao exibe animacao de borda gradiente por 5 segundos para evidenciar o novo campo sem interferir no uso."
+    "Correcao de Picos Irreais no Parser de Trafego: Eliminada a conversao erronea de canais de Volume/Pacotes em Bytes/s; valores em Volume agora sao convertidos usando a janela real do sensor/historico.",
+    "Filtro Anti Counter-Wrap em Picos 24h: Descarte automatico de leituras isoladas impossiveis (>10x banda ou salto isolado de reset SNMP >2.5x banda com baixa cobertura)."
   ]
 }
